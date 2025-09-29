@@ -1,0 +1,109 @@
+/**
+* @usage
+*
+* <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/general-sans.css">
+*
+* <style>
+* /...
+* </style>
+*
+*/
+
+
+/**
+* @license
+*
+* Font Family: General Sans
+* Designed by: Frode Helland
+* URL: https://www.fontshare.com/fonts/general-sans
+* © 2025 Indian Type Foundry
+*
+* General Sans Light 
+* General Sans Regular 
+* General Sans Medium 
+* General Sans Variable (Variable font)
+*
+*/
+
+@font-face {
+  font-family: 'General Sans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url('./general-sans/general-sans-light.woff2') format('woff2'),
+    url('./general-sans/general-sans-light.woff') format('woff'),
+    url('./general-sans/general-sans-light.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url('./general-sans/general-sans-regular.woff2') format('woff2'),
+    url('./general-sans/general-sans-regular.woff') format('woff'),
+    url('./general-sans/general-sans-regular.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url('./general-sans/general-sans-medium.woff2') format('woff2'),
+    url('./general-sans/general-sans-medium.woff') format('woff'),
+    url('./general-sans/general-sans-medium.ttf') format('truetype'),
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 500.0;
+*
+* available axes:
+* 'wght' (range from 300.0 to 500.0
+*
+*/
+
+@font-face {
+  font-family: 'General Sans';
+  font-weight: 300 500;
+  font-display: swap;
+  font-style: normal;
+  src: url('./general-sans/general-sans-variable.woff2') format('woff2'),
+    url('./general-sans/general-sans-variable.woff') format('woff'),
+    url('./general-sans/general-sans-variable.ttf') format('truetype');
+}
+
+
+// General Sans
+
+.general-sans_light {
+  font-family: "General Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.general-sans_regular {
+  font-family: "General Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.general-sans_medium {
+  font-family: "General Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+// General Sans Variable Font
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 500
+
+.general-sans_<uniquifier> {
+  font-family: "General Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

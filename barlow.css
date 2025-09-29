@@ -1,0 +1,62 @@
+/**
+* @usage
+*
+* <link rel="stylesheet" type="text/css" href="./barlow.css">
+*
+* <style>
+* /...
+* </style>
+*
+*/
+
+
+/**
+* @license
+*
+* This Font Software is licensed under the SIL Open Font License, Version 1.1.
+*
+* Font Family: Barlow
+* Designed by: Jeremy Tribby
+* URL: https://github.com/jpt/barlow
+* © 2017 The Barlow Project Authors
+*
+* Barlow Bold 
+* Barlow Black 
+*
+*/
+
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./barlow/barlow-bold.woff2') format('woff2'),
+       url('./barlow/barlow-bold.woff') format('woff'),
+       url('./barlow/barlow-bold.ttf') format('truetype'), 
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./barlow/barlow-black.woff2') format('woff2'),
+       url('./barlow/barlow-black.woff') format('woff'),
+       url('./barlow/barlow-black.ttf') format('truetype'), 
+}
+
+
+  // Barlow
+
+.barlow_bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow_black {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
