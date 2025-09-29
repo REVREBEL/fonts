@@ -81,8 +81,12 @@ All fonts are licensed under the **SIL Open Font License 1.1** or equivalent ope
 ## ⚡ Best Practices
 
 - Always preload **woff2** versions for performance:
+  
   ```html
-  <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand/khand-variable.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font"
+  href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand/khand-variable.woff2"
+  type="font/woff2" crossorigin>
+  
   ```
 - Use only **approved weights** to maintain brand consistency.
 - When using fallbacks, prefer the **closest web-safe font**:
