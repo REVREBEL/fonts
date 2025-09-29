@@ -1,101 +1,44 @@
 /**
-* @usage
-*
-* <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code.css">
-*
-* <style>
-* /...
-* </style>
-*
-*/
+ * REVREBEL | Fira Code (variable 300–500)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code/fira-code-variable.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code.css');
+ * </style>
+ *
+ */
 
-
-/**
-* @license
-*
-* Font Family: Fira Code
-* Designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov
-* URL: https://github.com/tonsky/FiraCode
-* © 2014-2020 The Fira Code Project Authors
-*
-* Fira Code Light 
-* Fira Code Regular 
-* Fira Code Medium 
-* Fira Code Variable (Variable font)
-*
-*/
-
+/* -----------------------------------------------------------
+   License / provenance
+   Family: Fira Code — © 2014–2020 The Fira Code Project Authors
+   Designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov
+   URL: https://github.com/tonsky/FiraCode
+   Weights in variable file: 300–500 (wght)
+   ----------------------------------------------------------- */
 
 @font-face {
-  font-display: swap;
   font-family: 'Fira Code';
   font-style: normal;
-  font-weight: 300;
-  src: url('./fira-code/fira-code-light.woff2') format('woff2'), 
-       url('./fira-code/fira-code-light.woff') format('woff'),
-       url('./fira-code/fira-code-light.ttf') format('truetype'),
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Fira Code';
-  font-style: normal;
-  font-weight: 400;
-  src: url('./fira-code/fira-code-regular.woff2') format('woff2'), 
-       url('./fira-code/fira-code-regular.woff') format('woff'),
-       url('./fira-code/fira-code-regular.ttf') format('truetype'),
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Fira Code';
-  font-style: normal;
-  font-weight: 500;
-  src: url('./fira-code/fira-code-medium.woff2') format('woff2'), 
-       url('./fira-code/fira-code-medium.woff') format('woff'),
-       url('./fira-code/fira-code-medium.ttf') format('truetype'),
-}
-
-@font-face {
-  font-family: 'Fira Code';
   font-weight: 300 500;
   font-display: swap;
-  font-style: normal;
   src: url('./fira-code/fira-code-variable.woff2') format('woff2'),
        url('./fira-code/fira-code-variable.woff') format('woff'),
        url('./fira-code/fira-code-variable.ttf') format('truetype');
 }
 
-  // Fira Code
-
-  .fira-code_light {
-    font-family: "Fira Code", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-   .fira-code_regular {
-    font-family: "Fira Code", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-    .fira-code_medium {
-    font-family: "Fira Code", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-
-// Fira Code Variable Font
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 500
-
+/* Variable helper */
 .fira-code_<uniquifier> {
-  font-family: "Fira Code", monospace;
+  font-family: "Fira Code", Consolas;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
-

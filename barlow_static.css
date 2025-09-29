@@ -43,16 +43,3 @@
        url('./barlow/barlow-black.woff') format('woff'),
        url('./barlow/barlow-black.ttf') format('truetype');
 }
-
-/* Helpers */
-.barlow_bold {
-  font-family: "Barlow", Impact;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.barlow_black {
-  font-family: "Barlow", Impact;
-  font-weight: 900;
-  font-style: normal;
-}

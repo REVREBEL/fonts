@@ -1,67 +1,43 @@
 /**
-* @usage
-*
-* <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji.css">
-*
-* <style>
-* /...
-* </style>
-*
-*/
+ * REVREBEL | Noto Emoji (variable — weight 700 usage)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji/noto-emoji-variable.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji.css');
+ * </style>
+ *
+ */
 
-
-/**
-* @license
-*
-* Font Family: Noto Emoji
-* URL: https://fonts.google.com/noto/specimen/Noto+Emoji
-* © 2013 Google LLC
-*
-* Noto Emoji Bold 
-* Noto Emoji Variable (Variable font)
-*
-*/
+/* -----------------------------------------------------------
+   License / provenance
+   Family: Noto Emoji — © 2013 Google LLC
+   URL: https://fonts.google.com/noto/specimen/Noto+Emoji
+   Variable file provided; project usage targets weight 700
+   ----------------------------------------------------------- */
 
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Noto Emoji';
   font-style: normal;
-  font-weight: 700;
-  src: url('./noto-emoji/noto-emoji-bold.woff2') format('woff2'),
-       url('./noto-emoji/noto-emoji-bold.woff') format('woff'),
-       url('./noto-emoji/noto-emoji-bold.ttf') format('truetype'),
-}
-
-@font-face {
-  font-family: 'Noto Emoji';
-  font-weight: 700;
+  font-weight: 700; /* constrain to your usage */
   font-display: swap;
-  font-style: normal;
   src: url('./noto-emoji/noto-emoji-variable.woff2') format('woff2'),
        url('./noto-emoji/noto-emoji-variable.woff') format('woff'),
        url('./noto-emoji/noto-emoji-variable.ttf') format('truetype');
 }
 
-
-.Noto Emoji_bold {
-  font-family: "Noto Emoji", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-
-// Noto Emoji Variable Font
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 500 to 700
-
-.Noto Emoji_<uniquifier> {
-  font-family: "Noto Emoji", sans-serif;
+/* Variable helper */
+.noto-emoji_<uniquifier> {
+  font-family: "Noto Emoji", "Segoe UI Emoji";
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
-
-
-
-

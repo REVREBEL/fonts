@@ -1,0 +1,113 @@
+/**
+ * REVREBEL | Master Font Bundle (variable)
+ * Includes: Khand, Fira Code, General Sans, Noto Emoji, Pacifico (static-only)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/rebel-fonts.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/rebel-fonts.css">
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/rebel-fonts.css');
+ * </style>
+ */
+
+/* -----------------------------------------------------------
+   License / provenance
+   Bundle includes:
+   - Khand (500–700 only) — © Indian Type Foundry
+   - Fira Code (300–500 variable) — © Fira Code Project Authors
+   - General Sans (300–500 variable) — © Indian Type Foundry
+   - Noto Emoji (700 only) — © Google LLC
+   - Pacifico (400 static) — © Pacifico Project Authors
+   ----------------------------------------------------------- */
+
+/* Khand (variable, 500–700) */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url('./khand/khand-variable.woff2') format('woff2'),
+       url('./khand/khand-variable.woff') format('woff');
+}
+
+/* Fira Code (variable, 300–500) */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 300 500;
+  font-display: swap;
+  src: url('./fira-code/fira-code-variable.woff2') format('woff2'),
+       url('./fira-code/fira-code-variable.woff') format('woff');
+}
+
+/* General Sans (variable, 300–500) */
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 300 500;
+  font-display: swap;
+  src: url('./general-sans/general-sans-variable.woff2') format('woff2'),
+       url('./general-sans/general-sans-variable.woff') format('woff');
+}
+
+/* Noto Emoji (variable, constrained to 700) */
+@font-face {
+  font-family: 'Noto Emoji';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./noto-emoji/noto-emoji-variable.woff2') format('woff2'),
+       url('./noto-emoji/noto-emoji-variable.woff') format('woff');
+}
+
+/* Pacifico (static only, 400) */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./pacifico/pacifico-regular.woff2') format('woff2'),
+       url('./pacifico/pacifico-regular.woff') format('woff'),
+       url('./pacifico/pacifico-regular.ttf') format('truetype');
+}
+
+/* Barlow (variable, 800–900) */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('./barlow/barlow-bold.woff2') format('woff2'),
+       url('./barlow/barlow-bold.woff') format('woff'),
+       url('./barlow/barlow-bold.ttf') format('truetype');
+}
+
+/* Barlow (variable, 800–900) */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./barlow/barlow-black.woff2') format('woff2'),
+       url('./barlow/barlow-black.woff') format('woff'),
+       url('./barlow/barlow-black.ttf') format('truetype');
+}
+
+/* Helpers */
+.barlow_bold {
+  font-family: "Barlow", Impact;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow_black {
+  font-family: "Barlow", Impact;
+  font-weight: 900;
+  font-style: normal;
+}

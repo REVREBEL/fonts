@@ -1,0 +1,37 @@
+/**
+ * REVREBEL | Noto Emoji (static)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji_static.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji_static.css">
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/noto-emoji_static.css');
+ * </style>
+ *
+ */
+
+/* -----------------------------------------------------------
+   License / provenance
+   Family: Noto Emoji — © 2013 Google LLC
+   URL: https://fonts.google.com/noto/specimen/Noto+Emoji
+   Static weight included: 700
+   ----------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Noto Emoji';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./noto-emoji/noto-emoji-bold.woff2') format('woff2'),
+       url('./noto-emoji/noto-emoji-bold.woff') format('woff'),
+       url('./noto-emoji/noto-emoji-bold.ttf') format('truetype');
+}
+
+/* Helper */
+.noto-emoji_bold { font-family: "Noto Emoji", "Segoe UI Emoji"; font-weight: 700; font-style: normal; }

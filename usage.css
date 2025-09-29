@@ -1,0 +1,120 @@
+/**
+* @usage
+*
+* <!-- Preload the CSS so rules are parsed early -->
+* <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand.css" type="text/css">
+* <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand.css">
+*
+* <!-- Preload the most critical font format -->
+* <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand/khand-variable.woff2" type="font/woff2" crossorigin>
+*
+* OR
+*
+* <style>
+* @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand.css');
+*
+* /...
+* </style>
+*
+*/
+
+
+
+/**
+* @license
+*
+* Font Family: Khand
+* Designed by: Satya Rajpurohit
+* URL: https://www.fontshare.com/fonts/khand/khand
+* © 2025 Indian Type Foundry
+*
+* Khand Medium 
+* Khand SemiBold 
+* Khand Bold 
+* Khand Variable (Variable font)
+*
+*/
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-medium.woff2') format('woff2'),
+       url('./khand/khand-medium.woff') format('woff'),
+       url('./khand/khand-medium.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-semibold.woff2') format('woff2'),
+       url('./khand/khand-semibold.woff') format('woff'),
+       url('./khand/khand-semibold.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-bold.woff2') format('woff2'),
+       url('./khand/khand-bold.woff') format('woff'),
+       url('./khand/khand-bold.ttf') format('truetype'),
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 700.0;
+*
+* available axes:
+* 'wght' (range from 200.0 to 700.0
+*
+*/
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 500 700;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-variable.woff2') format('woff2'),
+       url('./khand/khand-variable.woff') format('woff'),
+       url('./khand/khand-variable.ttf') format('truetype');
+}
+
+
+// Khand
+
+.khand_medium {
+  font-family: "Khand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.khand_semibold {
+  font-family: "Khand", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.khand_bold {
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+// Khand Variable Font
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 500 to 700
+
+.khand_<uniquifier> {
+  font-family: "Khand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+

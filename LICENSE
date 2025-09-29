@@ -27,22 +27,20 @@ General Sans Variable (Variable font)
 
 
 @license
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This Font Software is licensed under the SIL Open Font License, Version 1.1
 
 Font Family: Barlow
 Designed by: Jeremy Tribby
 URL: https://github.com/jpt/barlow
 © 2017 The Barlow Project Authors
 
-General Sans Light 
-General Sans Regular 
-General Sans Medium 
-General Sans Variable (Variable font)
+Barlow Bold 
+Barlow Black 
 
 
 
 @license
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This Font Software is licensed under the SIL Open Font License, Version 1.1
 
 Font Family: Fira Code
 Designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov
@@ -53,3 +51,41 @@ Fira Code Light
 Fira Code Regular 
 Fira Code Medium 
 Fira Code Variable (Variable font)
+
+
+
+@license
+This Font Software is licensed under the SIL Open Font License, Version 1.1
+
+Font Family: Noto Emoji
+URL: https://fonts.google.com/noto/specimen/Noto+Emoji
+© 2013 Google LLC
+
+Noto Emoji Bold 
+Noto Emoji Variable (Variable font)
+
+
+
+@license
+This Font Software is licensed under the SIL Open Font License, Version 1.1
+
+Font Family: Pacifico
+Designed by Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova
+URL: https://github.com/googlefonts/Pacifico
+2018 The Pacifico Project Authors
+
+Pacifico Regular
+
+
+
+@license
+This Font Software is licensed under the SIL Open Font License, Version 1.1
+
+Family: Fira Code
+Designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov
+URL: https://github.com/tonsky/FiraCode
+© 2014–2020 The Fira Code Project Authors
+
+Fira Code Light
+Fira Code Regular
+Fira Code Medium

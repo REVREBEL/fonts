@@ -1,0 +1,154 @@
+/**
+ * REVREBEL | Master Font Bundle (static)
+ * Includes: Khand, Fira Code, General Sans, Noto Emoji, Pacifico
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/rebel-fonts_static.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/rebel-fonts_static.css">
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/rebel-fonts_static.css');
+ * </style>
+ */
+
+/* -----------------------------------------------------------
+   License / provenance
+   Bundle includes:
+   - Khand (500, 600, 700) — © Indian Type Foundry
+   - Fira Code (300, 400, 500) — © Fira Code Project Authors
+   - General Sans (300, 400, 500) — © Indian Type Foundry
+   - Noto Emoji (700) — © Google LLC
+   - Pacifico (400) — © Pacifico Project Authors
+   ----------------------------------------------------------- */
+
+/* Khand static */
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./khand/khand-medium.woff2') format('woff2'),
+       url('./khand/khand-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./khand/khand-semibold.woff2') format('woff2'),
+       url('./khand/khand-semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./khand/khand-bold.woff2') format('woff2'),
+       url('./khand/khand-bold.woff') format('woff');
+}
+
+/* Fira Code static */
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./fira-code/fira-code-light.woff2') format('woff2'),
+       url('./fira-code/fira-code-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fira-code/fira-code-regular.woff2') format('woff2'),
+       url('./fira-code/fira-code-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./fira-code/fira-code-medium.woff2') format('woff2'),
+       url('./fira-code/fira-code-medium.woff') format('woff');
+}
+
+/* General Sans static */
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./general-sans/general-sans-light.woff2') format('woff2'),
+       url('./general-sans/general-sans-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./general-sans/general-sans-regular.woff2') format('woff2'),
+       url('./general-sans/general-sans-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./general-sans/general-sans-medium.woff2') format('woff2'),
+       url('./general-sans/general-sans-medium.woff') format('woff');
+}
+
+/* Noto Emoji static */
+@font-face {
+  font-family: 'Noto Emoji';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./noto-emoji/noto-emoji-bold.woff2') format('woff2'),
+       url('./noto-emoji/noto-emoji-bold.woff') format('woff');
+}
+
+/* Pacifico static */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./pacifico/pacifico-regular.woff2') format('woff2'),
+       url('./pacifico/pacifico-regular.woff') format('woff'),
+       url('./pacifico/pacifico-regular.ttf') format('truetype');
+}
+
+/* Barlow static */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('./barlow/barlow-bold.woff2') format('woff2'),
+       url('./barlow/barlow-bold.woff') format('woff'),
+       url('./barlow/barlow-bold.ttf') format('truetype');
+}
+
+/* Barlow static */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./barlow/barlow-black.woff2') format('woff2'),
+       url('./barlow/barlow-black.woff') format('woff'),
+       url('./barlow/barlow-black.ttf') format('truetype');
+}

@@ -1,0 +1,60 @@
+/**
+ * REVREBEL | Fira Code (static weights)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code_static.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code_static.css">
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/fira-code_static.css');
+ * </style>
+ *
+ */
+
+/* -----------------------------------------------------------
+   License / provenance
+   Family: Fira Code — © 2014–2020 The Fira Code Project Authors
+   Designed by The Mozilla Foundation, Telefonica S.A., Nikita Prokopov
+   URL: https://github.com/tonsky/FiraCode
+   Static weights included: 300, 400, 500
+   ----------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./fira-code/fira-code-light.woff2') format('woff2'),
+       url('./fira-code/fira-code-light.woff') format('woff'),
+       url('./fira-code/fira-code-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./fira-code/fira-code-regular.woff2') format('woff2'),
+       url('./fira-code/fira-code-regular.woff') format('woff'),
+       url('./fira-code/fira-code-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./fira-code/fira-code-medium.woff2') format('woff2'),
+       url('./fira-code/fira-code-medium.woff') format('woff'),
+       url('./fira-code/fira-code-medium.ttf') format('truetype');
+}
+
+/* Helpers */
+.fira-code_light   { font-family: "Fira Code", Consolas; font-weight: 300; font-style: normal; }
+.fira-code_regular { font-family: "Fira Code", Consolas; font-weight: 400; font-style: normal; }
+.fira-code_medium  { font-family: "Fira Code", Consolas; font-weight: 500; font-style: normal; }

@@ -1,0 +1,59 @@
+/**
+ * REVREBEL | Khand (500–700 only)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand.css-static" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand-static.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand/khand-variable.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand-static.css');
+ * </style>
+ *
+
+/* -----------------------------------------------------------
+   License / provenance
+   Family: Khand — © Indian Type Foundry
+   URL: https://www.fontshare.com/fonts/khand/khand
+   Weights in variable file: 200–700 (wght)
+   ----------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-medium.woff2') format('woff2'),
+       url('./khand/khand-medium.woff') format('woff'),
+       url('./khand/khand-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-semibold.woff2') format('woff2'),
+       url('./khand/khand-semibold.woff') format('woff'),
+       url('./khand/khand-semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Khand';
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  src: url('./khand/khand-bold.woff2') format('woff2'),
+       url('./khand/khand-bold.woff') format('woff'),
+       url('./khand/khand-bold.ttf') format('truetype');
+}
+
+/*—Optional utility helpers (keep if convenient)—*/
+.khand-500 { font-family: 'Khand', Impact, sans-serif; font-weight: 500; font-style: normal; }
+.khand-600 { font-family: 'Khand', Impact, sans-serif; font-weight: 600; font-style: normal; }
+.khand-700 { font-family: 'Khand', Impact, sans-serif; font-weight: 700; font-style: normal; }

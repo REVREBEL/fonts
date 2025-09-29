@@ -1,0 +1,39 @@
+/**
+ * REVREBEL | Pacifico
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/pacifico.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/pacifico.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/pacifico/pacifico-regular.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/pacifico.css');
+ * </style>
+ *
+ */
+
+/* -----------------------------------------------------------
+   License / provenance
+   Family: Pacifico — © 2018 The Pacifico Project Authors
+   Designers: Vernon Adams, Jacques Le Bailly, Botjo Nikoltchev, Ani Petrova
+   URL: https://github.com/googlefonts/Pacifico
+   Static weight included: 400
+   ----------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./pacifico/pacifico-regular.woff2') format('woff2'),
+       url('./pacifico/pacifico-regular.woff') format('woff'),
+       url('./pacifico/pacifico-regular.ttf') format('truetype');
+}
+
+/* Helper */
+.pacifico_regular { font-family: "Pacifico", cursive; font-weight: 400; font-style: normal;}

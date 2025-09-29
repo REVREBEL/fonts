@@ -1,0 +1,60 @@
+/**
+ * REVREBEL | General Sans (static weights)
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/general-sans_static.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/general-sans_static.css">
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/general-sans_static.css');
+ * </style>
+ *
+ */
+
+/* -----------------------------------------------------------
+   License / provenance
+   Family: General Sans — © 2025 Indian Type Foundry
+   Designed by: Frode Helland
+   URL: https://www.fontshare.com/fonts/general-sans
+   Static weights included: 300, 400, 500
+   ----------------------------------------------------------- */
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./general-sans/general-sans-light.woff2') format('woff2'),
+       url('./general-sans/general-sans-light.woff') format('woff'),
+       url('./general-sans/general-sans-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./general-sans/general-sans-regular.woff2') format('woff2'),
+       url('./general-sans/general-sans-regular.woff') format('woff'),
+       url('./general-sans/general-sans-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./general-sans/general-sans-medium.woff2') format('woff2'),
+       url('./general-sans/general-sans-medium.woff') format('woff'),
+       url('./general-sans/general-sans-medium.ttf') format('truetype');
+}
+
+/* Helpers */
+.general-sans_light   { font-family: "General Sans", Arial; font-weight: 300; font-style: normal; }
+.general-sans_regular { font-family: "General Sans", Arial; font-weight: 400; font-style: normal; }
+.general-sans_medium  { font-family: "General Sans", Arial; font-weight: 500; font-style: normal; }
