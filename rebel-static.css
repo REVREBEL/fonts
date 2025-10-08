@@ -22,36 +22,37 @@
    - Khand (500, 600, 700) — © Indian Type Foundry
    - Fira Code (300, 400, 500) — © Fira Code Project Authors
    - General Sans (300, 400, 500) — © Indian Type Foundry
+   - Supreme (300, 400, 500, 600, 700, 800) — © Indian Type Foundry  
    - Noto Emoji (700) — © Google LLC
    - Pacifico (400) — © Pacifico Project Authors
    ----------------------------------------------------------- */
 
 /* Khand static */
 @font-face {
-  font-family: 'Khand';
+  font-family: Khand;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url('./khand/khand-medium.woff2') format('woff2'),
-       url('./khand/khand-medium.woff') format('woff');
+    url('./khand/khand-medium.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Khand';
+  font-family: Khand;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url('./khand/khand-semibold.woff2') format('woff2'),
-       url('./khand/khand-semibold.woff') format('woff');
+    url('./khand/khand-semibold.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Khand';
+  font-family: Khand;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url('./khand/khand-bold.woff2') format('woff2'),
-       url('./khand/khand-bold.woff') format('woff');
+    url('./khand/khand-bold.woff') format('woff');
 }
 
 /* Fira Code static */
@@ -61,7 +62,7 @@
   font-weight: 300;
   font-display: swap;
   src: url('./fira-code/fira-code-light.woff2') format('woff2'),
-       url('./fira-code/fira-code-light.woff') format('woff');
+    url('./fira-code/fira-code-light.woff') format('woff');
 }
 
 @font-face {
@@ -70,7 +71,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('./fira-code/fira-code-regular.woff2') format('woff2'),
-       url('./fira-code/fira-code-regular.woff') format('woff');
+    url('./fira-code/fira-code-regular.woff') format('woff');
 }
 
 @font-face {
@@ -79,7 +80,7 @@
   font-weight: 500;
   font-display: swap;
   src: url('./fira-code/fira-code-medium.woff2') format('woff2'),
-       url('./fira-code/fira-code-medium.woff') format('woff');
+    url('./fira-code/fira-code-medium.woff') format('woff');
 }
 
 /* General Sans static */
@@ -89,8 +90,9 @@
   font-weight: 300;
   font-display: swap;
   src: url('./general-sans/general-sans-light.woff2') format('woff2'),
-       url('./general-sans/general-sans-light.woff') format('woff');
+    url('./general-sans/general-sans-light.woff') format('woff');
 }
+
 
 @font-face {
   font-family: 'General Sans';
@@ -98,7 +100,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('./general-sans/general-sans-regular.woff2') format('woff2'),
-       url('./general-sans/general-sans-regular.woff') format('woff');
+    url('./general-sans/general-sans-regular.woff') format('woff');
 }
 
 @font-face {
@@ -107,7 +109,62 @@
   font-weight: 500;
   font-display: swap;
   src: url('./general-sans/general-sans-medium.woff2') format('woff2'),
-       url('./general-sans/general-sans-medium.woff') format('woff');
+    url('./general-sans/general-sans-medium.woff') format('woff');
+}
+
+/* Supreme static */
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./supreme/supreme-light.woff2') format('woff2'),
+    url('./supreme/supreme-light.woff') format('woff'),
+    url('./supreme/supreme-light.ttf') format('truetype');
+}
+
+/* Supreme static */
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./supreme/supreme-regular.woff2') format('woff2'),
+    url('./supreme/supreme-regular.woff') format('woff'),
+    url('./supreme/supreme-regular.ttf') format('truetype');
+}
+
+/* Supreme static */
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./supreme/supreme-medium.woff2') format('woff2'),
+    url('./supreme/supreme-medium.woff') format('woff'),
+    url('./supreme/supreme-medium.ttf') format('truetype');
+}
+
+/* Supreme static */
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./supreme/supreme-bold.woff2') format('woff2'),
+    url('./supreme/supreme-bold.woff') format('woff'),
+    url('./supreme/supreme-bold.ttf') format('truetype');
+}
+
+/* Supreme static */
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('./supreme/supreme-extra-bold.woff2') format('woff2'),
+    url('./supreme/supreme-extra-bold.woff') format('woff'),
+    url('./supreme/supreme-extra-bold.ttf') format('truetype');
 }
 
 /* Noto Emoji static */
@@ -117,38 +174,38 @@
   font-weight: 700;
   font-display: swap;
   src: url('./noto-emoji/noto-emoji-bold.woff2') format('woff2'),
-       url('./noto-emoji/noto-emoji-bold.woff') format('woff');
+    url('./noto-emoji/noto-emoji-bold.woff') format('woff');
 }
 
 /* Pacifico static */
 @font-face {
-  font-family: 'Pacifico';
+  font-family: Pacifico;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url('./pacifico/pacifico-regular.woff2') format('woff2'),
-       url('./pacifico/pacifico-regular.woff') format('woff'),
-       url('./pacifico/pacifico-regular.ttf') format('truetype');
+    url('./pacifico/pacifico-regular.woff') format('woff'),
+    url('./pacifico/pacifico-regular.ttf') format('truetype');
 }
 
 /* Barlow static */
 @font-face {
-  font-family: 'Barlow';
+  font-family: Barlow;
   font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url('./barlow/barlow-bold.woff2') format('woff2'),
-       url('./barlow/barlow-bold.woff') format('woff'),
-       url('./barlow/barlow-bold.ttf') format('truetype');
+    url('./barlow/barlow-bold.woff') format('woff'),
+    url('./barlow/barlow-bold.ttf') format('truetype');
 }
 
 /* Barlow static */
 @font-face {
-  font-family: 'Barlow';
+  font-family: Barlow;
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url('./barlow/barlow-black.woff2') format('woff2'),
-       url('./barlow/barlow-black.woff') format('woff'),
-       url('./barlow/barlow-black.ttf') format('truetype');
+    url('./barlow/barlow-black.woff') format('woff'),
+    url('./barlow/barlow-black.ttf') format('truetype');
 }

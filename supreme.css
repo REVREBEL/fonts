@@ -1,0 +1,83 @@
+/**
+ * REVREBEL | Supreme
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/supreme.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/supreme/supreme-variable.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/supreme.css');
+ * </style>
+ *
+
+/* -----------------------------------------------------------
+   License / provenance
+   Font Family: Supreme
+   Designed by: Jérémie Hornus, Ilya Naumoff
+   URL: https://www.fontshare.com/fonts/supreme
+   © 2025 Indian Type Foundry
+   ----------------------------------------------------------- */
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 800.0;
+*
+* available axes:
+'wght' (range from 100.0 to 800.0
+*/
+
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('./supreme/supreme-variable.woff2') format('woff2'),
+    url('./supreme/supreme-variable.woff') format('woff'),
+    url('./supreme/supreme-variable.ttf') format('truetype');
+}
+
+
+/* Optional utility helpers (keep if convenient) */
+
+.supreme-300 {
+  font-family: Supreme, Impact, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.supreme-400 {
+  font-family: Supreme, Impact, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.supreme-500 {
+  font-family: Supreme, Impact, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.supreme-600 {
+  font-family: Supreme, Impact, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.supreme-700 {
+  font-family: Supreme, Impact, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.supreme-800 {
+  font-family: Supreme, Impact, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}

@@ -22,18 +22,20 @@
    - Khand (500–700 only) — © Indian Type Foundry
    - Fira Code (300–500 variable) — © Fira Code Project Authors
    - General Sans (300–500 variable) — © Indian Type Foundry
+   - Supreme (300–800 variable) — © Indian Type Foundry   
    - Noto Emoji (700 only) — © Google LLC
    - Pacifico (400 static) — © Pacifico Project Authors
    ----------------------------------------------------------- */
 
-/* Khand (variable, 500–700) */
+/* Khand (variable, 300–700) */
 @font-face {
-  font-family: 'Khand';
+  font-family: Khand;
   font-style: normal;
-  font-weight: 500 700;
+  font-weight: 300 700;
   font-display: swap;
   src: url('./khand/khand-variable.woff2') format('woff2'),
-       url('./khand/khand-variable.woff') format('woff');
+    url('./khand/khand-variable.woff') format('woff'),
+    url('./khand/khand-variable.ttf') format('truetype');
 }
 
 /* Fira Code (variable, 300–500) */
@@ -43,7 +45,7 @@
   font-weight: 300 500;
   font-display: swap;
   src: url('./fira-code/fira-code-variable.woff2') format('woff2'),
-       url('./fira-code/fira-code-variable.woff') format('woff');
+    url('./fira-code/fira-code-variable.woff') format('woff');
 }
 
 /* General Sans (variable, 300–500) */
@@ -53,7 +55,19 @@
   font-weight: 300 500;
   font-display: swap;
   src: url('./general-sans/general-sans-variable.woff2') format('woff2'),
-       url('./general-sans/general-sans-variable.woff') format('woff');
+    url('./general-sans/general-sans-variable.woff') format('woff'),
+    url('./general-sans/general-sans-variable.ttf') format('truetype');
+}
+
+/* Supreme (variable, 300–800) */
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('./supreme/supreme-variable.woff2') format('woff2'),
+    url('./supreme/supreme-variable.woff') format('woff'),
+    url('./supreme/supreme-variable.ttf') format('truetype');
 }
 
 /* Noto Emoji (variable, constrained to 700) */
@@ -63,51 +77,53 @@
   font-weight: 700;
   font-display: swap;
   src: url('./noto-emoji/noto-emoji-variable.woff2') format('woff2'),
-       url('./noto-emoji/noto-emoji-variable.woff') format('woff');
+    url('./noto-emoji/noto-emoji-variable.woff') format('woff');
 }
 
 /* Pacifico (static only, 400) */
 @font-face {
-  font-family: 'Pacifico';
+  font-family: Pacifico;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url('./pacifico/pacifico-regular.woff2') format('woff2'),
-       url('./pacifico/pacifico-regular.woff') format('woff'),
-       url('./pacifico/pacifico-regular.ttf') format('truetype');
+    url('./pacifico/pacifico-regular.woff') format('woff'),
+    url('./pacifico/pacifico-regular.ttf') format('truetype');
 }
+
+
 
 /* Barlow (variable, 800–900) */
 @font-face {
-  font-family: 'Barlow';
+  font-family: Barlow;
   font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url('./barlow/barlow-bold.woff2') format('woff2'),
-       url('./barlow/barlow-bold.woff') format('woff'),
-       url('./barlow/barlow-bold.ttf') format('truetype');
+    url('./barlow/barlow-bold.woff') format('woff'),
+    url('./barlow/barlow-bold.ttf') format('truetype');
 }
 
 /* Barlow (variable, 800–900) */
 @font-face {
-  font-family: 'Barlow';
+  font-family: Barlow;
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url('./barlow/barlow-black.woff2') format('woff2'),
-       url('./barlow/barlow-black.woff') format('woff'),
-       url('./barlow/barlow-black.ttf') format('truetype');
+    url('./barlow/barlow-black.woff') format('woff'),
+    url('./barlow/barlow-black.ttf') format('truetype');
 }
 
 /* Helpers */
 .barlow_bold {
-  font-family: "Barlow", Impact;
+  font-family: Barlow, Oswald, Impact, sans-serif;
   font-weight: 800;
   font-style: normal;
 }
 
 .barlow_black {
-  font-family: "Barlow", Impact;
+  font-family: Barlow, Oswald, Impact, sans-serif;
   font-weight: 900;
   font-style: normal;
 }

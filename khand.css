@@ -25,16 +25,31 @@
 
 /* Khand */
 @font-face {
-  font-family: 'Khand';
+  font-family: Khand;
   font-style: normal;
-  font-weight: 500 700;       /* brand-authorized range */
+  font-weight: 500 700;
   font-display: swap;
   src: url('./khand/khand-variable.woff2') format('woff2'),
-       url('./khand/khand-variable.woff') format('woff');
-  /* Optional: subset later with unicode-range for extra perf */
+    url('./khand/khand-variable.woff') format('woff'),
+    url('./khand/khand-variable.ttf') format('truetype');
 }
 
-/*—Optional utility helpers (keep if convenient)—*/
-.khand-500 { font-family: 'Khand', Impact, sans-serif; font-weight: 500; font-style: normal; }
-.khand-600 { font-family: 'Khand', Impact, sans-serif; font-weight: 600; font-style: normal; }
-.khand-700 { font-family: 'Khand', Impact, sans-serif; font-weight: 700; font-style: normal; }
+
+/* Optional utility helpers (keep if convenient) */
+.khand-500 {
+  font-family: Khand, Oswald, Impact, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.khand-600 {
+  font-family: Khand, Oswald, Impact, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.khand-700 {
+  font-family: Khand, Oswald, Impact, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

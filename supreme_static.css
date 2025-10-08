@@ -1,0 +1,116 @@
+/**
+ * REVREBEL | Supreme
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/supreme.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/khand.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/supreme/supreme-variable.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/supreme.css');
+ * </style>
+ *
+
+/* -----------------------------------------------------------
+   License / provenance
+   Font Family: Supreme
+   Designed by: Jérémie Hornus, Ilya Naumoff
+   URL: https://www.fontshare.com/fonts/supreme
+   © 2025 Indian Type Foundry
+   ----------------------------------------------------------- */
+
+
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./supreme/supreme-light.woff2') format('woff2'),
+    url('./supreme/supreme-light.woff') format('woff'),
+    url('./supreme/supreme-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./supreme/supreme-regular.woff2') format('woff2'),
+    url('./supreme/supreme-regular.woff') format('woff'),
+    url('./supreme/supreme-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./supreme/supreme-medium.woff2') format('woff2'),
+    url('./supreme/supreme-medium.woff') format('woff'),
+    url('./supreme/supreme-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./supreme/supreme-bold.woff2') format('woff2'),
+    url('./supreme/supreme-bold.woff') format('woff'),
+    url('./supreme/supreme-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Supreme;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('./supreme/supreme-extra-bold.woff2') format('woff2'),
+    url('./supreme/supreme-extra-bold.woff') format('woff'),
+    url('./supreme/supreme-extra-bold.ttf') format('truetype');
+}
+
+
+
+/* Optional utility helpers (keep if convenient) */
+
+.supreme-300 {
+  font-family: Supreme, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.supreme-400 {
+  font-family: Supreme, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.supreme-500 {
+  font-family: Supreme, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.supreme-600 {
+  font-family: Supreme, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.supreme-700 {
+  font-family: Supreme, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.supreme-800 {
+  font-family: Supreme, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
