@@ -21,7 +21,7 @@
    Family: General Sans — © 2025 Indian Type Foundry
    Designed by: Frode Helland
    URL: https://www.fontshare.com/fonts/general-sans
-   Static weights included: 300, 400, 500
+   Static weights included: 300, 400, 500, 600, 700
    ----------------------------------------------------------- */
 
 @font-face {
@@ -54,7 +54,29 @@
        url('./general-sans/general-sans-medium.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./general-sans/general-sans-semibold.woff2') format('woff2'),
+       url('./general-sans/general-sans-semibold.woff') format('woff'),
+       url('./general-sans/general-sans-semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'General Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./general-sans/general-sans-bold.woff2') format('woff2'),
+       url('./general-sans/general-sans-bold.woff') format('woff'),
+       url('./general-sans/general-sans-bold.ttf') format('truetype');
+}
+
 /* Helpers */
-.general-sans_light   { font-family: "General Sans", Arial; font-weight: 300; font-style: normal; }
-.general-sans_regular { font-family: "General Sans", Arial; font-weight: 400; font-style: normal; }
-.general-sans_medium  { font-family: "General Sans", Arial; font-weight: 500; font-style: normal; }
+.general-sans_light     { font-family: "General Sans", Arial; font-weight: 300; font-style: normal; }
+.general-sans_regular   { font-family: "General Sans", Arial; font-weight: 400; font-style: normal; }
+.general-sans_medium    { font-family: "General Sans", Arial; font-weight: 500; font-style: normal; }
+.general-sans_semibold  { font-family: "General Sans", Arial; font-weight: 600; font-style: normal; }
+.general-sans_bold      { font-family: "General Sans", Arial; font-weight: 700; font-style: normal; }
