@@ -209,3 +209,59 @@
     url('./barlow/barlow-black.woff') format('woff'),
     url('./barlow/barlow-black.ttf') format('truetype');
 }
+
+/* Logic Monoscript static (300–900) */
+@font-face {
+  font-family: "Logic Monoscript";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    url("./logic-monoscript/logic-monoscript-light.woff2") format("woff2"),
+    url("./logic-monoscript/logic-monoscript-light.woff") format("woff"),
+    url("./logic-monoscript/logic-monoscript-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Logic Monoscript";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("./logic-monoscript/logic-monoscript-regular.woff2") format("woff2"),
+    url("./logic-monoscript/logic-monoscript-regular.woff") format("woff"),
+    url("./logic-monoscript/logic-monoscript-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Logic Monoscript";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url("./logic-monoscript/logic-monoscript-medium.woff2") format("woff2"),
+    url("./logic-monoscript/logic-monoscript-medium.woff") format("woff"),
+    url("./logic-monoscript/logic-monoscript-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Logic Monoscript";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url("./logic-monoscript/logic-monoscript-bold.woff2") format("woff2"),
+    url("./logic-monoscript/logic-monoscript-bold.woff") format("woff"),
+    url("./logic-monoscript/logic-monoscript-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Logic Monoscript";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    url("./logic-monoscript/logic-monoscript-black.woff2") format("woff2"),
+    url("./logic-monoscript/logic-monoscript-black.woff") format("woff"),
+    url("./logic-monoscript/logic-monoscript-black.ttf") format("truetype");
+}

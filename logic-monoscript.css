@@ -1,0 +1,114 @@
+/**
+ * REVREBEL | Logic MonoScript
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/logic-monoscript.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/logic-monoscript.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/logic-monoscript/logic-monoscript-regular.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/logic-monoscript.css');
+ * </style>
+ *
+
+/* -----------------------------------------------------------
+   License / provenance
+   Font Family: Logic MonoScript
+   Designed by: (fill in designer/foundry)
+   URL: (foundry or specimen URL)
+   © (year) (foundry / rights holder)
+   ----------------------------------------------------------- */
+
+
+/* Light (300) */
+@font-face {
+  font-family: "Logic MonoScript";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./logic-monoscript/logic-monoscript-light.woff2") format("woff2"),
+       url("./logic-monoscript/logic-monoscript-light.woff") format("woff"),
+       url("./logic-monoscript/logic-monoscript-light.ttf") format("truetype");
+}
+
+/* Regular (400) */
+@font-face {
+  font-family: "Logic MonoScript";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./logic-monoscript/logic-monoscript-regular.woff2") format("woff2"),
+       url("./logic-monoscript/logic-monoscript-regular.woff") format("woff"),
+       url("./logic-monoscript/logic-monoscript-regular.ttf") format("truetype");
+}
+
+/* Medium (500) */
+@font-face {
+  font-family: "Logic MonoScript";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./logic-monoscript/logic-monoscript-medium.woff2") format("woff2"),
+       url("./logic-monoscript/logic-monoscript-medium.woff") format("woff"),
+       url("./logic-monoscript/logic-monoscript-medium.ttf") format("truetype");
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Logic MonoScript";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./logic-monoscript/logic-monoscript-bold.woff2") format("woff2"),
+       url("./logic-monoscript/logic-monoscript-bold.woff") format("woff"),
+       url("./logic-monoscript/logic-monoscript-bold.ttf") format("truetype");
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Logic MonoScript";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./logic-monoscript/logic-monoscript-black.woff2") format("woff2"),
+       url("./logic-monoscript/logic-monoscript-black.woff") format("woff"),
+       url("./logic-monoscript/logic-monoscript-black.ttf") format("truetype");
+}
+
+
+/* Optional utility helpers (keep if convenient) */
+
+.logic-monoscript-300 {
+  font-family: "Logic MonoScript", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.logic-monoscript-400 {
+  font-family: "Logic MonoScript", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logic-monoscript-500 {
+  font-family: "Logic MonoScript", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.logic-monoscript-700 {
+  font-family: "Logic MonoScript", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logic-monoscript-900 {
+  font-family: "Logic MonoScript", "Fira Code", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 900;
+  font-style: normal;
+}
