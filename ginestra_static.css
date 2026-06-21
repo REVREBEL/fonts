@@ -1,5 +1,5 @@
 /**
- * REVREBEL | Ginestra (900 only)
+ * NOW NOW NOHO | Ginestra (900 only)
  * Serve via jsDelivr or GitHub Pages.
  *
  * Recommended HTML (jsDelivr):
@@ -17,21 +17,18 @@
  *
 
 
-/* Ginestra */
 @font-face {
-  font-family: Ginestra;
+  font-family: "Ginestra";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('./ginestra/ginestra-black.woff2') format('woff2'),
-    url('./ginestra/ginestra-black.woff') format('woff'),
-    url('./ginestra/ginestra-black.ttf') format('truetype');
+  src: url("./ginestra/ginestra-black.woff2") format("woff2");
 }
 
 
 /* Optional utility helpers (keep if convenient) */
 .ginestra-black {
   font-family: Ginestra, "Syne", "Archivo Black", "Impact", "Arial Black", sans-serif;
-  font-weight: 500;
+  font-weight: 900;
   font-style: normal;
 }
