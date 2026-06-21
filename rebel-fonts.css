@@ -16,7 +16,7 @@
  * </style>
  */
 
-/* -----------------------------------------------------------
+/** -----------------------------------------------------------
    License / provenance
    Bundle includes:
    - Khand (500–700 only) — © Indian Type Foundry
@@ -27,7 +27,7 @@
    - Pacifico (400 static) — © Pacifico Project Authors
    ----------------------------------------------------------- */
 
-/* Khand (variable, 300–700) */
+/** Khand (variable, 300–700) */
 @font-face {
   font-family: Khand;
   font-style: normal;
@@ -38,7 +38,7 @@
     url('./khand/khand-variable.ttf') format('truetype');
 }
 
-/* Fira Code (variable, 300–500) */
+/** Fira Code (variable, 300–500) */
 @font-face {
   font-family: 'Fira Code';
   font-style: normal;
@@ -70,7 +70,7 @@
     url('./supreme/supreme-variable.ttf') format('truetype');
 }
 
-/* Noto Emoji (variable, constrained to 700) */
+/** Noto Emoji (variable, constrained to 700) */
 @font-face {
   font-family: 'Noto Emoji';
   font-style: normal;
@@ -80,7 +80,7 @@
     url('./noto-emoji/noto-emoji-variable.woff') format('woff');
 }
 
-/* Pacifico (static only, 400) */
+/**  Pacifico (static only, 400) */
 @font-face {
   font-family: Pacifico;
   font-style: normal;
@@ -93,7 +93,7 @@
 
 
 
-/* Barlow (variable, 800–900) */
+/** Barlow (variable, 800–900) */
 @font-face {
   font-family: Barlow;
   font-style: normal;
@@ -104,7 +104,7 @@
     url('./barlow/barlow-bold.ttf') format('truetype');
 }
 
-/* Barlow (variable, 800–900) */
+/** Barlow (variable, 800–900) */
 @font-face {
   font-family: Barlow;
   font-style: normal;
@@ -115,7 +115,7 @@
     url('./barlow/barlow-black.ttf') format('truetype');
 }
 
-/* Helpers */
+/** Helpers */
 .barlow_bold {
   font-family: Barlow, Oswald, Impact, sans-serif;
   font-weight: 800;
@@ -130,7 +130,7 @@
 
 
 
-/* Logic Monoscript (static only, 300–900) */
+/** Logic Monoscript (static only, 300–900) */
 @font-face {
   font-family: "Logic Monoscript";
   font-style: normal;
@@ -185,3 +185,92 @@
     url("./logic-monoscript/logic-monoscript-black.woff") format("woff"),
     url("./logic-monoscript/logic-monoscript-black.ttf") format("truetype");
 }
+
+
+
+/** -----------------------------------------------------------
+
+MICROSOFT FALLBACKS
+
+font-family: "General Sans",
+  "Segoe UI Variable",
+  "Segoe UI",
+  "Aptos",
+  "Calibri",
+  "Arial",
+  sans-serif;
+
+  font-family: "Khand",
+  "Bahnschrift",
+  "Segoe UI Variable",
+  "Segoe UI",
+  "Aptos",
+  "Calibri",
+  "Arial Narrow",
+  "Arial",
+  sans-serif;
+
+  font-family: "Fira Code",
+  "Cascadia Code",
+  "Consolas",
+  "Segoe UI Mono",
+  "Courier New",
+  monospace;
+
+  font-family: "Supreme",
+  "Segoe UI Variable",
+  "Segoe UI",
+  "Aptos",
+  "Calibri",
+  "Arial",
+  sans-serif;
+
+  font-family: "Noto Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Apple Color Emoji",
+  "Noto Color Emoji",
+  sans-serif;
+
+  font-family: "Pacifico",
+  "Segoe Script",
+  "Brush Script MT",
+  "Comic Sans MS",
+  cursive;
+
+  font-family: "Barlow",
+  "Segoe UI Variable",
+  "Segoe UI",
+  "Aptos",
+  "Calibri",
+  "Arial",
+  sans-serif;
+
+  font-family: "Logic Monoscript",
+  "Cascadia Mono",
+  "Cascadia Code",
+  "Consolas",
+  "Segoe UI Mono",
+  "Courier New",
+  monospace;
+
+----------------------------------------------------------- */
+
+
+
+/** -----------------------------------------------------------
+
+EXAMPLE TOKENS
+
+:root{
+  --font-general-sans: "General Sans","Segoe UI Variable","Segoe UI","Aptos","Calibri","Arial",sans-serif;
+  --font-khand: "Khand","Bahnschrift","Segoe UI Variable","Segoe UI","Aptos","Calibri","Arial Narrow","Arial",sans-serif;
+  --font-fira-code: "Fira Code","Cascadia Code","Consolas","Segoe UI Mono","Courier New",monospace;
+  --font-supreme: "Supreme","Segoe UI Variable","Segoe UI","Aptos","Calibri","Arial",sans-serif;
+  --font-noto-emoji: "Noto Emoji","Segoe UI Emoji","Segoe UI Symbol","Apple Color Emoji","Noto Color Emoji",sans-serif;
+  --font-pacifico: "Pacifico","Segoe Script","Brush Script MT","Comic Sans MS",cursive;
+  --font-barlow: "Barlow","Segoe UI Variable","Segoe UI","Aptos","Calibri","Arial",sans-serif;
+  --font-logic-monoscript: "Logic Monoscript","Cascadia Mono","Cascadia Code","Consolas","Segoe UI Mono","Courier New",monospace;
+}
+
+----------------------------------------------------------- */

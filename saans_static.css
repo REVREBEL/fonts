@@ -1,0 +1,55 @@
+/**
+ * NOW NOW NOHO | Saans
+ * Serve via jsDelivr or GitHub Pages.
+ *
+ * Recommended HTML (jsDelivr):
+ * <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+ * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/saans_static.css" type="text/css">
+ *
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/saans_static.css">
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/saans/saans-regular.woff2" type="font/woff2" crossorigin>
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/saans/saans-medium.woff2" type="font/woff2" crossorigin>
+ *
+ * OR
+ *
+ * <style>
+ *   @import url('https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/saans_static.css');
+ * </style>
+ *
+
+
+/* Saans */
+@font-face {
+  font-family: Saans;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./saans/saans-regular.woff2') format('woff2'),
+    url('./saans/saans-regular.woff') format('woff'),
+    url('./saans/saans-regular.ttf') format('truetype');
+}
+
+/* Saans */
+@font-face {
+  font-family: Saans;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./saans/saans-medium.woff2') format('woff2'),
+    url('./saans/saans-medium.woff') format('woff'),
+    url('./saans/saans-medium.ttf') format('truetype');
+}
+
+
+/* Optional utility helpers (keep if convenient) */
+.saans-regular {
+  font-family: Saans, "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.saans-medium {
+  font-family: Saans, "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
