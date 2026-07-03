@@ -20,17 +20,17 @@
 @font-face {
   font-family: "Ginestra";
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   font-display: swap;
-  src: url("./ginestra/ginestra-black.ttf") format("ttf");
-  src: url("./ginestra/ginestra-black.woff") format("woff");
-  src: url("./ginestra/ginestra-black.truetype") format("truetype");
+  src: url("./ginestra/ginestra-medium.ttf") format("woff");
+  src: url("./ginestra/ginestra-medium.woff") format("woff");
+  src: url("./ginestra/ginestra-medium.truetype") format("truetype");
 }
 
 @font-face {
   font-family: "Ginestra";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-display: swap;
   src: url("./ginestra/ginestra-bpld.woff2") format("woff2");
   src: url("./ginestra/ginestra-bold.woff") format("woff");
@@ -41,7 +41,7 @@
 @font-face {
   font-family: "Ginestra";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   font-display: swap;
   src: url("./ginestra/ginestra-semi-bold.woff2") format("woff2");
   src: url("./ginestra/ginestra-semi-woff") format("woff");
