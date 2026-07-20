@@ -1,5 +1,5 @@
 /**
- * NOW NOW NOHO | Ginestra (900 only)
+ * NOW NOW NOHO | Ginestra Static (400–900)
  * Serve via jsDelivr or GitHub Pages.
  *
  * Recommended HTML (jsDelivr):
@@ -7,9 +7,10 @@
  * <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra_static.css" type="text/css">
  *
  * <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra_static.css">
- * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-ultrawoff2" type="font/woff2" crossorigin>
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-ultra.woff2" type="font/woff2" crossorigin>
  * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-black.woff2" type="font/woff2" crossorigin>
  * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-bold.woff2" type="font/woff2" crossorigin>
+ * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-semibold.woff2" type="font/woff2" crossorigin>
  * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-medium.woff2" type="font/woff2" crossorigin>
  * <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/REVREBEL/fonts@main/ginestra/ginestra-regular.woff2" type="font/woff2" crossorigin>
  *
@@ -26,7 +27,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("./ginestra/ginestra-ultra.woff2") format("woff"),
+  src: url("./ginestra/ginestra-ultra.woff2") format("woff2"),
        url("./ginestra/ginestra-ultra.woff") format("woff"),
        url("./ginestra/ginestra-ultra.ttf") format("truetype");
 }
@@ -36,7 +37,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("./ginestra/ginestra-black.woff2") format("woff"),
+  src: url("./ginestra/ginestra-black.woff2") format("woff2"),
        url("./ginestra/ginestra-black.woff") format("woff"),
        url("./ginestra/ginestra-black.ttf") format("truetype");
 }
@@ -46,7 +47,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("./ginestra/ginestra-bold.woff2") format("woff"),
+  src: url("./ginestra/ginestra-bold.woff2") format("woff2"),
        url("./ginestra/ginestra-bold.woff") format("woff"),
        url("./ginestra/ginestra-bold.ttf") format("truetype");
 }
@@ -57,7 +58,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("./ginestra/ginestra-semibold.woff2") format("woff"),
+  src: url("./ginestra/ginestra-semibold.woff2") format("woff2"),
        url("./ginestra/ginestra-semibold.woff") format("woff"),
        url("./ginestra/ginestra-semibold.ttf") format("truetype");
 }
@@ -67,7 +68,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("./ginestra/ginestra-medium.woff2") format("woff"),
+  src: url("./ginestra/ginestra-medium.woff2") format("woff2"),
        url("./ginestra/ginestra-medium.woff") format("woff"),
        url("./ginestra/ginestra-medium.ttf") format("truetype");
 }
@@ -77,7 +78,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./ginestra/ginestra-regular.woff2") format("woff"),
+  src: url("./ginestra/ginestra-regular.woff2") format("woff2"),
        url("./ginestra/ginestra-regular.woff") format("woff"),
        url("./ginestra/ginestra-regular.ttf") format("truetype");
 }
