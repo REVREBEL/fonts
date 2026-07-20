@@ -26,9 +26,9 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("./ginestra/ginestra-ultra.woff2") format("woff");
-  src: url("./ginestra/ginestra-ultra.woff") format("woff");
-  src: url("./ginestra/ginestra-ultra.ttf") format("truetype");
+  src: url("./ginestra/ginestra-ultra.woff2") format("woff"),
+       url("./ginestra/ginestra-ultra.woff") format("woff"),
+       url("./ginestra/ginestra-ultra.ttf") format("truetype");
 }
 
 @font-face {
@@ -36,9 +36,9 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url("./ginestra/ginestra-black.woff2") format("woff");
-  src: url("./ginestra/ginestra-black.woff") format("woff");
-  src: url("./ginestra/ginestra-black.ttf") format("truetype");
+  src: url("./ginestra/ginestra-black.woff2") format("woff"),
+       url("./ginestra/ginestra-black.woff") format("woff"),
+       url("./ginestra/ginestra-black.ttf") format("truetype");
 }
 
 @font-face {
@@ -46,9 +46,9 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("./ginestra/ginestra-bold.woff2") format("woff2");
-  src: url("./ginestra/ginestra-bold.woff") format("woff");
-  src: url("./ginestra/ginestra-bold.ttf") format("truetype");
+  src: url("./ginestra/ginestra-bold.woff2") format("woff"),
+       url("./ginestra/ginestra-bold.woff") format("woff"),
+       url("./ginestra/ginestra-bold.ttf") format("truetype");
 }
 
 
@@ -57,9 +57,9 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("./ginestra/ginestra-semibold.woff2") format("woff2");
-  src: url("./ginestra/ginestra-semibold.woff") format("woff");
-  src: url("./ginestra/ginestra-semibold.ttf") format("truetype");
+  src: url("./ginestra/ginestra-semibold.woff2") format("woff"),
+       url("./ginestra/ginestra-semibold.woff") format("woff"),
+       url("./ginestra/ginestra-semibold.ttf") format("truetype");
 }
 
 @font-face {
@@ -67,9 +67,9 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("./ginestra/ginestra-medium.woff2") format("woff");
-  src: url("./ginestra/ginestra-medium.woff") format("woff");
-  src: url("./ginestra/ginestra-medium.ttf") format("truetype");
+  src: url("./ginestra/ginestra-medium.woff2") format("woff"),
+       url("./ginestra/ginestra-medium.woff") format("woff"),
+       url("./ginestra/ginestra-medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -77,9 +77,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./ginestra/ginestra-regular.woff2") format("woff2");
-  src: url("./ginestra/ginestra-regular.woff") format("woff");
-  src: url("./ginestra/ginestra-regular.ttf") format("truetype");
+  src: url("./ginestra/ginestra-regular.woff2") format("woff"),
+       url("./ginestra/ginestra-regular.woff") format("woff"),
+       url("./ginestra/ginestra-regular.ttf") format("truetype");
 }
 
 
